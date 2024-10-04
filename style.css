@@ -42,3 +42,22 @@ nav a:hover{
     transform: scale(0.9);
     transition: transform 1s;
 }
+span {
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color:var(--cor-de-fundo)
+}
+.graficos-texto{
+    margin: 5rem;
+
+}
+.graficos-texto{
+    font-size: 1.3rem;
+    border: var(--cor-secundaria) solid 2px;
+    padding: 2rem;
+}
