@@ -25,18 +25,16 @@ const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-
         font: {
         color: getCSS('--cor-primaria'),
         family: getCSS('--fonte'),
-        size: 30
-
-
-
-
-        
-        
-
-        }
+        size: 30,
       }
-    }
- 
+      }
+    },
+xaxis:{
+  tickfont: tickfont,
+  title:{
+    text: ''
+  }
+}
   const grafico = document.createElement('div');
   grafico.className = 'grafico';
   document.getElementById('graficos-container').appendChild(grafico);
